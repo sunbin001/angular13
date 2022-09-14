@@ -1,5 +1,5 @@
 const path = require('path')
-
+dirname(fileURLToPath(import.meta.url))
 module.exports = {
   // Source files
   src: path.resolve(__dirname, '../src'),
