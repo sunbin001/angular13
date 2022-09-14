@@ -11,5 +11,7 @@ module.exports = {
   public: path.resolve(__dirname, '../public'),
 
   sunbin :path.resolve(__dirname, '../tsconfig.app.json')
+      "start2": "cross-env NODE_ENV=development webpack serve --config config/webpack.dev.mjs",
+    "start3": "cross-env NODE_ENV=development webpack serve --config config/paths.js",
   
 }
