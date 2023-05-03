@@ -53,5 +53,3 @@ module.exports = merge(common, {
     maxAssetSize: 512000,
   },
 })
-
-
